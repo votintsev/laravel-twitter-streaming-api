@@ -15,10 +15,16 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/votintsev/twitter-streaming-api"
+        }
+    ],
     "require": {
         "php": "^7.0",
         "illuminate/support": "^5.3",
-        "spatie/twitter-streaming-api": "dev-master"
+        "spatie/twitter-streaming-api": "dev-fix"
     },
     "require-dev": {
 
